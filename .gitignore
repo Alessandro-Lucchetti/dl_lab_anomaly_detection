@@ -1,0 +1,47 @@
+# Git ignore file for the project
+
+/esa-adb
+/data/mission*
+/datasets/
+results/
+experiments/*/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging / editable install artifacts
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda
+.conda/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

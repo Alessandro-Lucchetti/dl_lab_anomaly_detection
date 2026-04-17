@@ -1,0 +1,19 @@
+name: dl-lab-anomaly-detection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - -e .
+      - pandas
+      - pyarrow
+      - numpy
+      - tqdm
+      - jupyter
+      - python-dateutil
+      - polars
+      - torch
+      - torchvision
+      - torchaudio
